@@ -1,12 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from 'react'
+import HomePage from './HomePage.jsx/HomePage'
+const App = () => {
   return (
-    <div className="App">
-      Arham
-    </div>
-  );
+    <div><HomePage/></div>
+  )
 }
 
-export default App;
+export default App
