@@ -11,11 +11,11 @@ const MainHeader = () => {
           style={{ maxWidth: "600px", height: "70px" }}
           alt="Logo"
         />
-        <button
+       <button
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="/navbarNavDropdown"
+          data-bs-target="#navbarNavDropdown" // Use "#" instead of "/"
           aria-controls="navbarNavDropdown"
           aria-expanded="false"
           aria-label="Toggle navigation"
