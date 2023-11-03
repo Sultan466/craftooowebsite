@@ -1,0 +1,202 @@
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #007bff;
+  text-decoration: underline;
+  animation: bounce 5s ease infinite;
+}
+.description {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  position: relative;
+}
+
+.description:before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #007bff;
+  left: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+
+/* Advanced styling for services */
+.services-list {
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.services-list li {
+  font-size: 16px;
+  margin: 5px 0;
+  position: relative;
+}
+
+.services-list li:before {
+  content: "\2022";
+  color: #007bff;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  position: absolute;
+  left: -1.5em;
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+.offerings {
+  display: flex;
+  width: 100%;
+  border-image: linear-gradient(45deg, #522c83, #007bff) 1;
+  border-image-slice: 1;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.titles-column {
+  flex: 1;
+  background: linear-gradient(45deg, #522c83, #853c70);
+  padding: 20px;
+}
+
+.offering-title {
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+  text-decoration: underline;
+  border: 1px solid #ccc;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.offering-title:hover {
+  transform: scale(1.05);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.offering-title.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.info-column {
+  flex: 2;
+  padding: 20px;
+}
+
+.offering-info {
+  text-align: left;
+}
+
+.description {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.services-list {
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.services-list li {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.explore-link {
+  display: block;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: color 0.3s;
+}
+
+.explore-link:hover {
+  text-decoration: underline;
+  color: #ff6a00;
+}
+
+.rotating-element {
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+/* Existing CSS */
+
+/* Advanced styling for descriptions */
+.description {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  position: relative;
+}
+
+.description:before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #007bff;
+  left: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+
+/* Advanced styling for services */
+.services-list {
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.services-list li {
+  font-size: 16px;
+  margin: 5px 0;
+  position: relative;
+  border-bottom: 1px solid #007bff; /* Add an underline to each service item */
+}
+
+.services-list li:before {
+  content: "\2022";
+  color: #007bff;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  position: absolute;
+  left: -1.5em;
+}
