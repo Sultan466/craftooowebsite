@@ -200,3 +200,29 @@
   position: absolute;
   left: -1.5em;
 }
+
+/* Make the entire layout responsive */
+@media (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+  }
+
+  .offerings {
+    flex-direction: column;
+  }
+
+  .titles-column {
+    width: 100%;
+  }
+
+  .info-column {
+    width: 100%;
+  }
+}
+
+/* Additional mobile-specific styling if needed */
+@media (max-width: 480px) {
+  .heading {
+    font-size: 20px;
+  }
+}

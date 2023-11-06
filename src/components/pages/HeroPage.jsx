@@ -29,7 +29,7 @@ const HeroPage = () => {
                   minWidth: "200px",
                   padding: "5px",
                   border: "1px solid white",
-                  color: "darkblue",
+                  color: "yellow",
                   borderRadius:"10px"
                 }}
               >
