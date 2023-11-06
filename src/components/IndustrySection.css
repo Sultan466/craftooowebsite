@@ -1,0 +1,88 @@
+.wrapper {
+  padding: 15px;
+  width: 85vw;
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.heading {
+  font-size: 35px;
+}
+.divider {
+  width: 50px;
+  height: 10px;
+  border-top: 3px solid orange;
+}
+.description {
+  font-size: 20px;
+}
+
+.box {
+  margin: 15px;
+  position: relative;
+  text-transform: capitalize;
+  width: 270px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1), 0 -1px 5px 0 rgba(0, 0, 0, 0.05);
+}
+.box:hover .slider {
+  animation: myAnimation 0.5s forwards;
+}
+.box:hover .arrow {
+  transform: rotate(0deg);
+  transition: all linear 0.2s;
+}
+.box:hover .title {
+  color: rgba(33, 97, 172, 1);
+}
+.arrow {
+  position: absolute;
+  top: 5px;
+  font-size: 15px;
+  right: 5px;
+  transform: rotate(-50deg);
+  color: rgba(33, 97, 172, 1);
+}
+.slider {
+  position: absolute;
+  bottom: 0;
+  height: 5px;
+  background-color: rgba(33, 97, 172, 1);
+}
+.box-content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.box-content > img {
+  height: 110px;
+}
+@keyframes myAnimation {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .box {
+    width: 100%;
+  }
+  .box-content {
+    width: 100%;
+  }
+}
+@media (min-width: 2560px) {
+  .wrapper {
+    place-items: start;
+  }
+}
