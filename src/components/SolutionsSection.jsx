@@ -14,7 +14,7 @@ const SolutionsSection = () => {
           operations.
         </p>
 
-        {/* cards */}
+        {/* cards  */}
         <div className="row g-4">
           {SolutionsCardData.map((cardData) => {
             return (
