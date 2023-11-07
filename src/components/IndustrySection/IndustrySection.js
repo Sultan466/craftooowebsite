@@ -1,6 +1,6 @@
 import React from "react";
 import "./IndustrySection.css";
-import { logos } from "../constants";
+import { logos } from "../../utils/constants";
 import { FaArrowRight } from "react-icons/fa";
 const IndustrySection = () => {
   return (

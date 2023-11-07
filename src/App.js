@@ -1,5 +1,5 @@
 import "./App.css";
-import IndustrySection from "./components/IndustrySection";
+import IndustrySection from "./components/IndustrySection/IndustrySection";
 
 function App() {
   return (

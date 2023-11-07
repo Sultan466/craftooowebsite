@@ -1,17 +1,17 @@
-import healthcare from "./assests/healthcare.svg";
-import banking from "./assests/banking.svg";
-import cart from "./assests/cart.svg";
-import information from "./assests/information.svg";
-import lending from "./assests/lending.svg";
-import manufacturing from "./assests/manufacturing.svg";
-import umbrella from "./assests/umbrella.svg";
-import oil_and_gas from "./assests/oil-and-gas.svg";
-import marketing_and_advertising from "./assests/marketing-and-advertising.svg";
-import telecoms from "./assests/telecoms.svg";
-import transportation from "./assests/transportation.svg";
-import investment from "./assests/investment.svg";
-import publicSector from "./assests/public-sector.svg";
-import professionalServices from "./assests/publicServices.png";
+import healthcare from "../assests/healthcare.svg";
+import banking from "../assests/banking.svg";
+import cart from "../assests/cart.svg";
+import information from "../assests/information.svg";
+import lending from "../assests/lending.svg";
+import manufacturing from "../assests/manufacturing.svg";
+import umbrella from "../assests/umbrella.svg";
+import oil_and_gas from "../assests/oil-and-gas.svg";
+import marketing_and_advertising from "../assests/marketing-and-advertising.svg";
+import telecoms from "../assests/telecoms.svg";
+import transportation from "../assests/transportation.svg";
+import investment from "../assests/investment.svg";
+import publicSector from "../assests/public-sector.svg";
+import professionalServices from "../assests/publicServices.png";
 
 export const logos = [
   {
